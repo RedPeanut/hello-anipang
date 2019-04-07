@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>HelloAnipang-v0.3</title>
+        <!--
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+        <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+        -->
+        <!--<script type="text/javascript" language="javascript" src="lib/jquery-1.9.1.min.js"></script>-->
+        <script type="text/javascript" language="javascript" src="lib/jquery-1.10.2.js"></script>
+        <script type="text/javascript" language="javascript" src="lib/jquery-ui-1.10.1.custom.min.js"></script>
+        
+        <link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+    </head>
+
+    <body onload="Main.onLoad();" onunload="Main.onUnload();">
+    
+        <!--<a href="javascript:void(0);" id="anchor"></a>-->
+        
+        <canvas id='gameCanvas' width='940' height='520'>Canvas not supported</canvas>
+        <div id='progressDiv' display='none'></div>
+        
+        <!--
+        <ul id="menu">
+            <li id="item0"><span>Start</span></li>
+            <li id="item1"><span>Option</span></li>
+        </ul>
+        -->
+        <!--
+        <div id='loadingToast' class='toast'>
+            <span id='loadingToastTitle' class='title'>HelloAnipang-v0.1</span>
+            <span id='loadButtonSpan'>
+                <span id='loadingMessage'>Loading...</span>
+            </span>
+            <div id='progressDiv'></div>
+        </div>
+        
+        <div id='menuToast' class='toast'>
+            <ul id="menu">
+                <li id="item0"><span>Start</span></li>
+                <li id="item1"><span>Option</span></li>
+            </ul>
+        </div>
+        
+        <div id='boardToast' class='toast'>
+        </div>
+        -->
+        
+        <!-- Sounds................................................................. -->
+        <!--
+        <audio id='pop' preload='auto'>
+           <source src='sounds/pop.ogg' type='audio/ogg'>
+           <source src='sounds/pop.mp3' type='audio/mp3'>
+        </audio>
+        <audio id='whoosh' preload='auto'>
+           <source src='sounds/whoosh.ogg' type='audio/ogg'>
+           <source src='sounds/whoosh.mp3' type='audio/mp3'>
+        </audio>
+        -->
+        
+        <script src = 'shared/js/EngineDefinitions.js'></script>
+        <script src = 'shared/js/requestNextAnimationFrame.js'></script>
+        <script src = 'shared/js/roundedRectangle.js'></script>
+        <script src = 'shared/js/sprites.js'></script>
+        <script src = 'shared/js/GameEngine.js'></script>
+        <script src = 'shared/js/sprintf.js'></script>
+        <script src = 'app/javascript/GlobalDefinitions.js'></script>
+        <script src = 'app/javascript/Util.js'></script>
+        <script src = 'app/javascript/Block.js'></script>
+        <script src = 'app/javascript/MovingBlockInfo.js'></script>
+        <script src = 'app/javascript/GlobalInfo.js'></script>
+        <script src = 'app/javascript/DroppingInfo.js'></script>
+        <script src = 'app/javascript/ProgressBar.js'></script>
+        <script src = 'app/javascript/TimerInfo.js'></script>
+        <script src = 'app/javascript/Main.js'></script>
+    </body>
+</html>

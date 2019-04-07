@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Layout */
+body {
+    width: 1280px;
+    height: 720px;
+    background-color: #dddddd;
+}
+
+#gameCanvas {
+    margin: 10px;
+    background: rgba(120,168,249,0.7);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    -webkit-box-shadow: rgba(100,100,100,0.5) 4px 4px 8px;
+    -moz-box-shadow: rgba(100,140,230,0.5) 2px 2px 6px;
+    -o-box-shadow: rgba(100,140,230,0.5) 2px 2px 6px;
+    box-shadow: rgba(100,140,230,0.5) 2px 2px 6px;
+    border: thin solid cornflowerblue;
+}
+
+#progressDiv {
+    position: absolute;
+    left: 201px;
+    top: 69px;
+}
+#progressCanvas {
+    left: 0px;
+    top: 0px;
+    //background: rgba(120,168,249,0.7);
+}
+#progressBackground {
+}
+#progressForegournd {
+}
