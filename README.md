@@ -9,7 +9,7 @@ html 파일들 대부분 기본브라우저에 연결되어 있을테니,
 index.html 파일을 더블 클릭하면 브라우저에서 열리며,
 HTML5를 지원하는 브라우저(대부분 브라우저)에서 기동 가능하다.
 
-조작은 키보드.
+조작은 방향키와 스페이스.
 
 세부내용은 doc폴더내 <a href="https://github.com/RedPeanut/hello-anipang/blob/master/doc/%EC%95%A0%EB%8B%88%ED%8C%A1%20%EA%B8%B0%ED%9A%8D%EC%95%88.ppt">애니팡기획안.ppt</a>를 참고하면 되겠다.
 
